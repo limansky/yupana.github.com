@@ -1,3 +1,6 @@
 title: Yupana
 
-theme: jekyll-theme-architect
+plugins:
+  - bootstrap
+
+# theme: jekyll-theme-architect
