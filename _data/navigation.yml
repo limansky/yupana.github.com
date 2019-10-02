@@ -1,0 +1,5 @@
+main:
+  - title: "Как это работает"
+    url: /docs/howto
+  - title: "Новости"
+    url: /news
