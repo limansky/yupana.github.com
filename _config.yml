@@ -3,5 +3,18 @@ title: Yupana
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 
-
 repository: "rusexpertiza-llc/yupana-site"
+
+locale: "ru-RU"
+
+collections:
+  docs:
+    output: true
+# This will work with Jekyll 4.x
+#    sort_by: section
+
+exclude:
+  - README
+  - vendor
+  - Gemfile
+  - Dockerfile

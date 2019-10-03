@@ -1,5 +1,7 @@
 main:
-  - title: "Как это работает"
-    url: /docs/howto
+  - title: "Документация"
+    url: /documentation
   - title: "Новости"
     url: /news
+  - title: "Контакты"
+    url: /contacts
