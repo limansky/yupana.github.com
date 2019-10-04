@@ -1,7 +1,0 @@
-main:
-  - title: "Документация"
-    url: /documentation
-  - title: "Новости"
-    url: /news
-  - title: "Контакты"
-    url: /contacts

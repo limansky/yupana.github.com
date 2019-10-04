@@ -1,6 +1,5 @@
 ---
-layout: single
-classes: wide
+layout: post
 title: Архитектура Yupana
 section: 20
 ---

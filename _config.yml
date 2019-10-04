@@ -1,11 +1,15 @@
 title: Yupana
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"
+theme: jekyll-theme-clean-blog
 
 repository: "rusexpertiza-llc/yupana-site"
 
 locale: "ru-RU"
+
+defaults:
+  values:
+    layout: post
+    author_profile: false
 
 collections:
   docs:
