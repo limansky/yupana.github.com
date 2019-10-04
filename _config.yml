@@ -1,11 +1,23 @@
 title: Yupana
+description: "Распределенная система анализа розничных продаж с открытым исходным кодом."
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"
+theme: jekyll-theme-clean-blog
 
 repository: "rusexpertiza-llc/yupana-site"
 
+paginate: 5
+paginate_path: "/news/page:num/"
+
 locale: "ru-RU"
+
+author: Yupana, Первый ОФД
+github_username: rusexpertiza-llc
+twitter_username: yupanaproject
+facebook_username: yupanaproject
+
+defaults:
+  values:
+    layout: post
 
 collections:
   docs:

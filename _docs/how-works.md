@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Как работает Yupana
 section: 10
 ---

@@ -1,16 +1,24 @@
 ---
-layout: splash
+layout: home
 classes:
   - landing
   - dark-theme
-header:
-  overlay_image: /assets/images/header.jpg
-  overlay_filter: rgba(255, 0, 0, 0.5)
-  caption: Yupana -- аналитическая платформа для больших данных с открытым исходным кодом.
+title: Yupana
+background: /assets/images/header.jpg
 ---
 
+## Стандартизация
+
+Стандартизация взаимодействия поставщиков данных и производителей аналитики.
+
+## Открытость
+
+Открытый исходный код и свободная лицензия Apache 2.0.
+
+## Простота
+
+Простой язык запросов похожий на SQL.
+
+## Большие данные
 
 
-## Yupana
-
-Yupana -- аналитическая платформа для больших данных с открытым исходным кодом.

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 classes: wide
 title: Внешние связи.
 section: 30
