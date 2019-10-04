@@ -6,6 +6,11 @@ repository: "rusexpertiza-llc/yupana-site"
 
 locale: "ru-RU"
 
+author: Yupana, Первый ОФД
+github_username: rusexpertiza-llc
+twitter_username: yupanaproject
+facebook_username: yupanaproject
+
 defaults:
   values:
     layout: post
