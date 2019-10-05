@@ -4,11 +4,33 @@
 
 @import "styles";
 
-#header {
+header.masthead {
+    
+    .page-heading { 
+        padding-bottom: 100px;
+    }
+    .overlay {
+        background-color: #002222;
+        background: rgba(0,43,54,0.85);
+        opacity: 0.8;
+    }
+}
 
+#header {
+    
+    text-align: left;
+        
+
+    .subheading {
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+    }
+        
     ul {
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         list-style-type: none;
         margin: 10px 0 0;
+        
     }
 
     li {
