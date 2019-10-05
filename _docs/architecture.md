@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Архитектура Yupana
 section: 20
 ---

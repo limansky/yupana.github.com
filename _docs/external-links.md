@@ -1,6 +1,5 @@
 ---
-layout: post
-classes: wide
+layout: article
 title: Внешние связи.
 section: 30
 ---
