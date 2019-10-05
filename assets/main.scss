@@ -8,6 +8,11 @@
 
     ul {
         list-style-type: none;
+        margin: 10px 0 0;
+    }
+
+    li {
+        text-align: left;
     }
 
     ul > li::before {
