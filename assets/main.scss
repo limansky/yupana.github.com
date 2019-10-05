@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "styles";
+
+#header {
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul > li::before {
+        content: "— ";
+        text-indent: 1em;
+    }
+
+    a {
+        color: #ededed;
+    }
+
+    .quick-start {
+        margin-top: 30px;
+        background-color: #ffffffc4;
+    }
+
+    .quick-start:hover {
+        background-color: #6c757d;
+    }
+}
