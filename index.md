@@ -66,7 +66,7 @@ WHERE
    ItemsInvertedIndex_phrase NOT IN ("ульт%", "шок", "сгущ") AND
    sum / quantity < 100  
 GROUP BY
-   month    
+   month, city    
 ```
 
 ### Возможность усовершенствования <a name="refine"></a>
