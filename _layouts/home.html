@@ -5,48 +5,45 @@ layout: default
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-    {% else %}
-    <header class="masthead">
-        {% endif %}
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 mx-auto">
-                    <div class="page-heading">
-                        <div id="header">
-                            <div class="row justify-content-md-center">
-                                <div class="col col-lg-5">
-                                    <div>
-                                        <span class="subheading">{{ site.description }}</span>
-                                    </div>
-                                    <div>
-                                        <a href="https://github.com/rusexpertiza-llc/yupana" class="btn btn-outline-secondary quick-start" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                                <div class="col col-lg-6">
-                                    <ul>
-                                        <li><a href="#union">Объединение данных ОФД</a></li>
-                                        <li><a href="#standart">Единый подход в работе с данными</a></li>
-                                        <li><a href="#open">Открытый исходный код</a></li>
-                                        <li><a href="#simple">Простоый SQL подобный язык запросов</a></li>
-                                        <li><a href="#refine">Возможность усовершенствованя</a></li>
-                                        <li><a href="#bigdata">Готова к большим данным</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{% else %}
+<header class="masthead">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mx-auto">
+        <div class="page-heading">
+          <div id="header">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-5">
+                <div>
+                  <span class="subheading">{{ site.description }}</span>
                 </div>
+                <div>
+                  <a href="https://github.com/rusexpertiza-llc/yupana" class="btn btn-outline-secondary quick-start" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
+                </div>
+              </div>
+              <div class="col col-lg-6">
+                <ul>
+                  {% for section in page.sections %}
+                  <li><a href="{{ section.link }}" class="side-nav">{{ section.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </div>
+</header>
 
 <div class="container">
-<div class="row">
-  <div class="col-lg-8 col-md-10 mx-auto">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
 
     {{ content }}
 
+    </div>
   </div>
-</div>
 </div>

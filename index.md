@@ -6,6 +6,17 @@ classes:
 title: Yupana
 background: /assets/images/header.jpg
 description: Запрос от клиента формализуется в виде декларативного языка похожего на SQL
+sections:
+  - name: "Объединение данных ОФД"
+    link: "#union"
+  - name: "Открытый исходный код"
+    link: "#open"
+  - name: "Простой SQL подобный язык запросов"
+    link: "#simple"
+  - name: "Возможность усовершенствования"
+    link: "#refine"
+  - name: "Готовность к большим данным"
+    link: "#bigdata"
 ---
 
 ### Объединение данных ОФД <a name="union"></a>
