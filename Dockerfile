@@ -11,5 +11,6 @@ RUN bundle install --path vendor/bundle
 RUN bundle exec jekyll build --verbose
 
 FROM nginx:alpine
+COPY serve/nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /build/_site /usr/share/nginx/html
 EXPOSE 80
