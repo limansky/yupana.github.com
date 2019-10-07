@@ -2,6 +2,7 @@
 layout: page
 title: Документация
 ---
+### Оглавление
 
 {% assign ordered_docs = site.docs | sort: "section" %}
 {% for doc_page in ordered_docs %}
