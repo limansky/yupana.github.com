@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Язык запросов Yupana (YpanaQL)
+title: Язык запросов Yupana (YupanaQL)
 section: 40
 ---
 
