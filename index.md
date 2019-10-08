@@ -76,7 +76,26 @@ GROUP BY
 сама такой является. ОФД могут добавить новые функции, исправить или ускорить процессы, — а после 
 этого включать или не включать его в общедоступный проект.
 
-(тут иконостас с технологиями которые мы используем)
+<div class="row">
+  <div class="col">
+    <img src="/assets/images/scala_logo.png" class="tech-logo">
+  </div>
+  <div class="col">
+    <img src="/assets/images/spark_logo.png" class="tech-logo">
+  </div>
+  <div class="col">
+    <img src="/assets/images/hadoop_logo.svg" class="tech-logo">
+  </div>
+  <div class="col">
+    <img src="/assets/images/hbase_logo.png" class="tech-logo">
+  </div>
+  <div class="col">
+    <img src="/assets/images/akka_logo.png" class="tech-logo">
+  </div>
+  <div class="col">
+    <img src="/assets/images/ignite_logo.png" class="tech-logo">
+  </div>
+</div>
 
 ### Готова к большим данным <a name="bigdata"></a>
 
