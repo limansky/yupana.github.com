@@ -76,7 +76,7 @@ GROUP BY
 сама такой является. ОФД могут добавить новые функции, исправить или ускорить процессы, — а после 
 этого включать или не включать его в общедоступный проект.
 
-<div class="row">
+<div class="row align-items-center">
   <div class="col">
     <img src="/assets/images/scala_logo.png" class="tech-logo">
   </div>
