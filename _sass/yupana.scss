@@ -14,7 +14,11 @@ header.masthead {
 
     .post-heading {
         padding: 100px 0px;
+        h1.title-small {
+            font-size: 28pt;
+        }
     }
+
     .overlay {
         background-color: #002222;
         background: rgba(0,43,54,0.85);
@@ -179,4 +183,8 @@ li {
 
 img.tech-logo {
   width: 120px;
+}
+
+.post-preview > a > .post-title {
+  font-size: 18pt;
 }
