@@ -1,7 +1,6 @@
 title: Yupana
 description: "Распределенная система анализа розничных продаж с открытым исходным кодом"
 
-theme: jekyll-theme-clean-blog
 background: /assets/images/header.jpg
 
 repository: "rusexpertiza-llc/yupana-site"
