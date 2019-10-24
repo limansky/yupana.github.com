@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign  document = site[the_collection] | sort: "section" %}
+  {% endif %}
+{% for links in document %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+      {% assign nexttitle = next.title %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% elsif site.background %}
+<header class="masthead" style="background-image: url('{{ site.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead" style="background-image: url('/assets/images/header.jpg')">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-11 mx-auto">
+        <div class="post-heading">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <h2 class="subheading">{{ page.subtitle }}</h2>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 mx-auto">
+
+      {{ content }}
+
+      <hr>
+
+      <div class="clearfix">
+
+        {% if prevurl %}
+        <a class="btn btn-primary float-left" href="{{ prevurl | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ prevtitle }}">{{ prevtitle }} &larr;</a>
+        {% endif %}
+        {% if nexturl %}
+        <a class="btn btn-primary float-right" href="{{ nexturl | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ nexttitle }}">{{ nexttitle }} &rarr;</a>
+        {% endif %}
+
+      </div>
+
+    </div>
+  </div>
+</div>
