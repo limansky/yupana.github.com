@@ -16,9 +16,17 @@ github_username: rusexpertiza-llc
 twitter_username: yupanaproject
 facebook_username: yupanaproject
 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
 defaults:
   values:
     layout: post
+
+feed:
+  path: feed.xml
 
 collections:
   docs:
