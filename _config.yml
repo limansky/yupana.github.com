@@ -1,5 +1,6 @@
 title: Yupana
 description: "Распределенная система анализа розничных продаж с открытым исходным кодом"
+url: "http://yupana.org"
 
 background: /assets/images/header.jpg
 
@@ -15,9 +16,18 @@ github_username: rusexpertiza-llc
 twitter_username: yupanaproject
 facebook_username: yupanaproject
 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 defaults:
   values:
     layout: post
+
+feed:
+  path: feed.xml
 
 collections:
   docs:
