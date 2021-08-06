@@ -1,9 +1,7 @@
 - title: "Как это работает"
   url: /docs/how-works
-- title: "Быстрый старт"
-  url: /docs/getting-started
 - title: "Документация"
-  url: /documentation
+  url: http://docs.yupana.org
 - title: "Новости"
   url: /news
 - title: "Контакты"
